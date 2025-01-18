@@ -2,9 +2,14 @@
 
 This repository contains the code, documentation, and insights from my summer internship project focused on **Ethical Hacking and Cyber Security** with a specialization in keylogger development and detection.
 
+---
+
+
 ## Project Overview
 
 The project explored the development, functionality, and ethical implications of keyloggers—a tool that records keystrokes on a system. It aims to provide a comprehensive understanding of keylogging mechanisms, their applications in cybersecurity, and strategies to mitigate the risks they pose.
+
+---
 
 ### Key Objectives
 
@@ -13,7 +18,9 @@ The project explored the development, functionality, and ethical implications of
 3. Explore methods for detecting and preventing keylogger infections.
 4. Discuss the ethical implications of keylogger usage.
 
+
 ---
+
 
 ## Features
 
@@ -26,7 +33,9 @@ The project explored the development, functionality, and ethical implications of
   - Discusses common detection techniques like signature analysis and behavior monitoring.
   - Suggests prevention measures, including endpoint security protocols.
 
+
 ---
+
 
 ## Usage Instructions
 
@@ -42,7 +51,9 @@ The project explored the development, functionality, and ethical implications of
    ```bash
    python keylogger.py
 
+
 ---
+
 
 ## Ethical Considerations
 
@@ -50,7 +61,9 @@ The project explored the development, functionality, and ethical implications of
 - All development and testing were conducted in controlled, ethical environments.
 - Unauthorized use of keyloggers to capture personal data is illegal and unethical.
 
+
 ---
+
 
 ## Results
 
@@ -61,7 +74,9 @@ The project explored the development, functionality, and ethical implications of
 - Prevention: Demonstrated the importance of user education and multi-layered security 
   strategies.
 
+
   ---
+
 
   ## References
 
@@ -69,10 +84,11 @@ The project explored the development, functionality, and ethical implications of
 - Keylogger Detection Using Machine Learning Techniques: A Comparative Study
 - Behavioral Analysis in Malware Detection
 
+
 ---
+
 
 ## Acknowledgments
   Special thanks to Edunet Foundation for their guidance during this project.
-  
-  Feel free to adjust any section according to your needs! Let me know if you'd like any 
-  modifications.
+  Let me know if you'd like any modifications.
+  Thank you for checking out this project! 😊
